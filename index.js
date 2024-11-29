@@ -27,26 +27,26 @@ document.querySelector('.header__logo-container').addEventListener('click', () =
 // --- Load Projects and Social Media Links ---
 document.addEventListener('DOMContentLoaded', () => {
   const userInfo = {
-    name: 'Jaydip Dhrangu',
+    name: 'Nirali Kota',
     description: 'A Backend Developer building efficient solutions using PHP, Node.js, and Laravel, focusing on scalable and maintainable applications.',
-    bioImage: "./assets/jpeg/android-chrome-192x192.png",
-    siteImage: "./assets/jpeg/android-chrome-192x192.png",
-    image: "./assets/jpeg/android-chrome-192x192.png",
-    favicon: "./assets/jpeg/favicon.ico",
-    websiteUrl: 'https://jaydipdhrangu.com',
+    bioImage: "./assets/jpeg/profile.png",
+    siteImage: "./assets/jpeg/profile.png",
+    image: "./assets/jpeg/profile.png",
+    favicon: "./assets/jpeg/profile.png",
+    websiteUrl: 'https://niralikota.com',
   };
 
   const socialLinks= [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/jaydip-dhrangu-7a85a21a3/",
+      url: "https://www.linkedin.com/in/nirali-kota-7538a8267",
       icon: "./assets/png/linkedin-ico.png",
       darkIcon: "./assets/svg/linkedin-dark.svg",
       alt: userInfo.name + " LinkedIn Profile"
     },
     {
       name: "GitHub",
-      url: "https://github.com/jaydip1508/",
+      url: "https://https://github.com/Niralikota/",
       icon: "./assets/png/github-ico.png",
       darkIcon: "./assets/svg/github-dark.svg",
       alt: userInfo.name + " GitHub Profile"
@@ -76,28 +76,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const projects = [
     {
-      title: "Etrog",
-      description: "Etrog is an online health monitoring platform that integrates with IoT devices to track patients' vitals and health metrics in real-time. The platform is designed for healthcare providers, including users, nurses, and doctors, to efficiently manage patient data. It provides alert mechanisms for unstable vitals and missed medication schedules, ensuring timely interventions. The backend was developed using Laravel, and the platform leverages MySQL for data storage. The project focuses on providing a reliable, scalable solution for remote patient monitoring and healthcare management.",
-      image: "./assets/jpeg/etrog.jpeg",
-      ProjectLink: "https://etrogsystems.com/"
+      title: "Basic Banking System",
+      description: "The project is about getting all bank customer details and adding/deleting users, as well as sending money to other customers.",
+      image: "./assets/jpeg/bankingsystem.png",
+      ProjectLink: "https://github.com/Niralikota/Basis-Banking-system"
     },
     {
-      title: "Bewitching",
-      description: "Bewitching is a comprehensive online platform that combines e-commerce functionalities with digital learning solutions. It supports the sale of both physical products and digital courses, catering to a diverse user base. The platform features an integrated quiz module for course assessments and a meeting scheduling system for live sessions with psychics. Developed using Laravel, the project required building a robust backend with secure payment gateway integration. The platform aims to provide users with an engaging experience for both shopping and learning.",
-      image: "./assets/jpeg/bewitching.jpeg",
-      ProjectLink: "/project-2"
+      title: "Payment Gateway Integration",
+      description: "The project is about donating payments to needy people using a third-party payment method with Razorpay.",
+      image: "./assets/jpeg/payment.png",
+      ProjectLink: "https://joyful-churros-d93efa.netlify.app/"
     },
     {
-      title: "Widora",
-      description: "Widora is an all-in-one e-commerce solution built for users to easily buy and sell physical goods, services, and digital products. The platform is designed using WordPress with WooCommerce integration, offering seamless e-commerce capabilities. Widora handles complex features like order management, payment processing, shipping logistics, and customer service. The project required extensive customization of WordPress plugins and themes to meet client requirements, along with optimized database management using MySQL to ensure fast and reliable performance. The website is user-friendly and tailored for a global audience.",
-      image: "./assets/jpeg/widora.jpeg",
-      ProjectLink: "https://widora.it/"
+      title: "Responsive Fitness Website",
+      description: "• This is a responsive fitness website where users can join fitness gym classes.",
+      image: "./assets/jpeg/responsive.png",
+      ProjectLink: "https://thriving-horse-e06876.netlify.app/"
     },
     {
-      title: "E-Fraud Detection App",
-      description: "The E-Fraud Detection App is a specialized tool designed to detect fraudulent activities in financial transactions. The application retrieves and processes bank and credit card statements using AI-powered APIs, converting them into structured JSON data for analysis. Built using Express.js for the server-side application and MySQL for the database, the app features secure API endpoints for data retrieval, sophisticated fraud detection algorithms, and an alert system to notify users of suspicious activities. The project focuses on providing an automated solution for fraud prevention in financial services.",
-      image: "./assets/jpeg/efraud.jpeg",
-      ProjectLink: "/project-4"
+      title: "User CRUD Project",
+      description: "The project is a Node CRUD app that allows adding, updating, and deleting user data.",
+      image: "./assets/jpeg/responsive.png",
+      ProjectLink: "https://github.com/Niralikota/crudapp"
     }
   ];
 
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     description: userInfo.description,
     author: userInfo.name,
     image: userInfo.siteImage,
-    url: "https://jaydipdhrangu.com"
+    url: "https://niralikota.com"
   };
 
   const aboutMeData = {
@@ -117,8 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         heading: "Get to know me!",
         paragraphs: [
-          `I'm a <strong>Backend Developer</strong> with over 3 years of experience in building scalable backend solutions using PHP, Laravel, and Node.js. Check out some of my work in the <strong>Projects</strong> section.`,
-          `I enjoy sharing my knowledge on backend development and contributing to the Dev Community. Connect with me on <a rel='noreferrer' href='https://linkedin.com/in/jaydipdhrangu' target='_blank'>LinkedIn</a> to see my latest posts and updates.`,
+          `I'm a <strong>Backend Developer</strong> as a fresher building scalable backend solutions using PHP, Laravel, and Node.js. Check out some of my work in the <strong>Projects</strong> section.`,
+          `I enjoy sharing my knowledge on backend development and contributing to the Dev Community. Connect with me on <a rel='noreferrer' href='https://linkedin.com/in/nirali-kota-7538a8267' target='_blank'>LinkedIn</a> to see my latest posts and updates.`,
           `I'm open to <strong>Job</strong> opportunities where I can apply my skills and grow professionally. If you have a position that matches my experience, feel free to <strong>contact</strong> me.`
         ],
         contactButtonText: "Contact",
@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     ],
     skills: [
-      "PHP", "Laravel", "Node.js", "Express.js", "Koa.js", "MySQL", "MongoDB",
-      "RESTful API", "Microservices", "Docker", "Git", "Swagger", "Joi Validation"
+      "PHP", "Laravel", "Node.js", "Express.js", "MySQL", "MongoDB",
+      "RESTful API", "Git",
     ]
   };
 
@@ -135,14 +135,14 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       icon: "assets/svg/phone-icon.svg",
       label: "Mobile",
-      value: "+91 9662099252",
-      link: "tel:+919662099252"
+      value: "+91 9313439512",
+      link: "tel:+919313439512"
     },
     {
       icon: "assets/svg/envelope-icon.svg",
       label: "Email",
-      value: "jaydipdhrangu2@gmail.com",
-      link: "mailto:jaydipdhrangu2@gmail.com"
+      value: "niralikota@gmail.com",
+      link: "mailto:niralikota@gmail.com"
     },
     {
       icon: "assets/svg/maps-pin-black-icon.svg",
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
       icon: "assets/svg/whatsapp-icon.svg",
       label: "WhatsApp",
       value: "Chat with me",
-      link: "https://wa.me/919662099252"
+      link: "https://wa.me/919313439512"
     }
   ];
 
