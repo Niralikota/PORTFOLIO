@@ -29,10 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const userInfo = {
     name: 'Nirali Kota',
     description: 'A Backend Developer building efficient solutions using PHP, Node.js, and Laravel, focusing on scalable and maintainable applications.',
-    bioImage: "./assets/jpeg/profile.png",
-    siteImage: "./assets/jpeg/profile.png",
-    image: "./assets/jpeg/profile.png",
-    favicon: "./assets/jpeg/profile.png",
+    bioImage: "./assets/jpeg/circular_image.png",
+    siteImage: "./assets/jpeg/circular_image.png",
+    image: "./assets/jpeg/circular_image.png",
+    favicon: "./assets/jpeg/circular_image.png",
     websiteUrl: 'https://niralikota.com',
   };
 
