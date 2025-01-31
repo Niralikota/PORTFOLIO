@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: "User CRUD Project",
       description: "The project is a Node CRUD app that allows adding, updating, and deleting user data.",
-      image: "./assets/jpeg/responsive.png",
+      image: "./assets/jpeg/crudapp.png",
       ProjectLink: "https://github.com/Niralikota/crudapp"
     }
   ];

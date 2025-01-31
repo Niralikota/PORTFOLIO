@@ -423,7 +423,9 @@ textarea {
     width: 100%;
     display: block;
     -o-object-fit: cover;
-    object-fit: cover
+    object-fit: cover;
+    border:2px solid #ebeb3a
+    ;
 }
 
 .projects__row-content {
